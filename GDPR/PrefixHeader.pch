@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  GDPR
+//
+//  Created by unakayou on 10/24/18.
+//  Copyright © 2018 unakayou. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "ExtTool.h"
+#import "ConsentManager.h"
+#import "ConsentConstant.h"
+
+#define SPACE 10
+#define CONSENTSTRING_SAVE_KEY @"consentstringsavekey"
+#define THEME_BLUE [UIColor colorWithRed:0.117 green:0.580 blue:0.831 alpha:1]
+
+#endif /* PrefixHeader_pch */
